@@ -5,11 +5,6 @@
   "author": "Samuel Jun",
   "description": "A simple browser extension for managing your productivity.",
 
-  "applications": {
-    "gecko": {
-      "id": "jid1-Kt2kYYgi32zPuw@jetpack"
-    }
-  },
 
   "icons": {
     "16": "/assets/img/tomato-icon-16.png",
@@ -81,7 +76,6 @@
   },
 
   "options_ui": {
-    "page": "/html/options.html",
-    "browser_style": false
+    "page": "/html/options.html"
   }
 }

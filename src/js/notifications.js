@@ -8,22 +8,8 @@ class Notifications {
 	}
 
 	createBrowserNotification(timerType) {
-		let message = '';
 
-		switch (timerType) {
-			case TIMER_TYPE.TOMATO:
-				message = 'Your Tomato timer is done!';
-				break;
-			case TIMER_TYPE.SHORT_BREAK:
-				message = 'Your short break is done!';
-				break;
-			case TIMER_TYPE.LONG_BREAK:
-				message = 'Your long break is done!';
-				break;
-			default:
-				message = 'Your timer is done!'
-				break;
-		}
+		let message = "HELLO";
 
 		browser.notifications.create(NOTIFICATION_ID, {
 			type: 'basic',
