@@ -9,7 +9,7 @@ class Notifications {
 
 	createBrowserNotification(timerType) {
 
-		let quotes= Array('Whether you think you can, or you think you can’t – you’re right. —Henry Ford','Oh yes, the past can hurt. But you can either run from it, or learn from it. —Rafiki, The Lion King','If I had nine hours to chop down a tree, I’d spend the first six sharpening my axe. —Abraham Lincoln','The mind is its own place, and in itself can make a heaven of hell, a hell of heaven. —   John Milton, Paradise Lost','Intelligence is the ability to adapt to change. —Stephen Hawking','Leaders can let you fail and yet not let you be a failure. —Stanley McChrystal','Fight till the last gasp. —William Shakespeare, Henry VI','Do or do not. There is no try. —Yoda, The Empire Strikes Back','Intelligence without ambition is a bird without wings. —Salvador Dali','Life’s like a movie, write your own ending. Keep believing, keep pretending. —Jim Hensen','In matters of style, swim with the current; in matters of principle, stand like a rock. — Thomas Jefferson');
+		let quotes= Array('You can do it!','Do not give up', 'You is perfect', 'You is kind', 'You is beautiful', 'If not us, who?','If not now, when?','Fear is absence of love.', 'A pint filled drop by drop', 'Every moment is a fresh beginning', 'The best way is always through', 'You better werk','We are born naked and the rest is Drag', 'We all have our pupropses, we all have our strengths', 'Mistakes make you who you are','This is the beginning of the rest of your life', 'And If I fly or if I fall, at least I can say I gave it all.');
 
 		let message = quotes[Math.floor(Math.random()*quotes.length)];
 
